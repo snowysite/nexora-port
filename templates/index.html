@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nexora Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="/templates/style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   
 </head>
@@ -543,16 +543,16 @@
     });
 
     
-//   document.getElementById("logoutBtn").addEventListener("click", () => {
-//     // Optional: clear local storage/session if used
-//     localStorage.clear();
-//     sessionStorage.clear();
+  document.getElementById("logoutBtn").addEventListener("click", () => {
+    // Optional: clear local storage/session if used
+    localStorage.clear();
+    sessionStorage.clear();
 
-//     // Redirect to login page
-//     window.location.href = "login.html"; // Replace with your actual login page path
-//   });
+    // Redirect to login page
+    window.location.href = "login.html"; // Replace with your actual login page path
+  });
 
-//   // On each protected page
+  // On each protected page
 // if (!sessionStorage.getItem("isLoggedIn")) {
 //   window.location.href = "login.html";
 // }
